@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif; /* Using a sans-serif font */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling the Main Content */
+#main-content {
+    margin: 20px;
+    padding: 20px;
+    background-color: white; /* White background for content */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.content-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Dark text color */
+    margin-bottom: 15px; /* Spacing between paragraphs */
+}
+
+/* Image Section */
+.image-section {
+    text-align: center;
+    margin: 30px;
+}
+
+.responsive-image {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+    border: 5px solid #ccc; /* Light gray border around image */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #333; /* Dark footer background */
+    color: white; /* White text */
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
